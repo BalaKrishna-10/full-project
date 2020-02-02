@@ -1,0 +1,14 @@
+.Heroimage {
+    
+    margin-top: 1%;
+    height: 400px;
+}
+
+.Heroimage img {
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    
+
+    
+}

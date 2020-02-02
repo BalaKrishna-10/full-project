@@ -1,0 +1,19 @@
+.Footer {
+    width: 100%;
+    height: 100px;
+    background-color: #07174B;
+    margin-top: 50px;
+}
+
+.Footer h3 {
+    color: white;
+    margin: 1.5rem auto;    
+}
+
+.left h3 {
+    text-align: left;
+      
+}
+.right h3 {
+    text-align: right;  
+} 

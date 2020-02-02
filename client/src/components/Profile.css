@@ -1,0 +1,15 @@
+.grid-pro {
+    /* display: grid;
+    grid-template-columns: 30% 40%; */
+    display: flex;
+    flex: 1;
+    grid-gap: 1px; 
+    position: relative;
+     left: 10px;
+    margin-top: 50px;
+    width: 50%;
+
+    
+    
+}
+

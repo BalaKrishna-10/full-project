@@ -1,0 +1,135 @@
+.Container {
+    font-family: sans-serif;
+   margin-top: 5%;
+    
+    width: 100%;
+    height: auto;
+     
+    
+    text-align: center;
+     
+     padding: 10px;
+     
+     
+
+   
+}
+
+.row1  {
+    display: grid;
+    grid-template-columns: 20% 30%;
+    margin-left: 31%;
+    
+    
+
+
+}
+
+.upload {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px 5px;
+    background-color: #0066E8;
+    color: white;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    
+}
+
+.upload:hover{
+    background-color: white;
+    color: #0066E8;
+    border-color: #0066E8;
+    outline: none;
+    border: 1px solid;
+    
+
+}
+
+.imagepreview {
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+
+
+}
+.imagepreview img {
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.form-page {
+    
+    margin-top: 50px;
+   
+    margin: 50px 
+
+    
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 20% 30%; 
+    margin-left: 25%; 
+    margin-bottom: 50px;      
+    
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid #A4A4A4;
+}
+
+
+.question {
+    display: grid;
+    grid-template-columns: 20% 20% 30%;
+    margin-left: 25%;
+    grid-gap: 20px;
+}
+
+.inputquestion {
+    padding: 8px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid #A4A4A4;
+    margin-bottom: 5px;
+}
+
+.col .col1 {
+    margin-bottom: 10px;
+}
+
+
+.submit {
+    margin-top: 5%;
+    width: 100px;
+    padding: 10px;
+    background-color: #0066E8;
+    color: white;
+    border-radius: 5px; 
+    outline: none;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    font-size: 15px;
+}
+
+.submit:hover {
+    background-color: white;
+    color: #0066E8;
+    border-color: #0066E8;
+    padding: 10px;
+
+}
+
+
+ 
