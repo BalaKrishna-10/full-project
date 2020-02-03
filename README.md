@@ -4,7 +4,7 @@
 
 1. Clone repo 
 2. Open cloned repo in your terminal 
-Now perform the following commands 
+and run the following commands 
 3. `cd client`
 4. `npm install`
 5. `cd ..` to go back in root directory which is "full-project-master"
