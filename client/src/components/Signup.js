@@ -52,14 +52,18 @@ export default class Signup extends Component {
 
         fetch(url , {method : method , body: formData})
         .then(result => {
-            
+            if(result.status == 500){
+                alert('This email is already registered')
+             
+            }
+            else 
             if(result !==200 && result !==201){
-                console.log('signup failed')
-               this.setState({error:"This email is already registered!"})
+                console.log('signup successful') 
+                window.location.href="/"
             } 
-            
+            else{
             return result.json()
-            
+            }
         })
        
         
